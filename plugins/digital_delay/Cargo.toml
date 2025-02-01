@@ -1,0 +1,18 @@
+[package]
+name = "digital_delay"
+version = "0.1.0"
+edition = "2021"
+authors = ["Han-Sheng Wang <hanson2693@gmail.com>"]
+license = "GPL-3.0-only"
+
+description = "A simple delay plugin"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+atomic_float = "^1.0.0"
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git", features = ["standalone", "vst3"] }
+nih_plug_vizia = { git = "https://github.com/robbert-vdh/nih-plug.git" }
+parking_lot = "^0.12.0"
+rustafx = { path = "../../../rustafx" }
