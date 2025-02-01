@@ -15,4 +15,4 @@ atomic_float = "^1.0.0"
 nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git", features = ["standalone", "vst3"] }
 nih_plug_vizia = { git = "https://github.com/robbert-vdh/nih-plug.git" }
 parking_lot = "^0.12.0"
-rustafx = { path = "../../../rustafx" }
+rustafx = { git = "https://github.com/hswangTW/rustafx.git" }
