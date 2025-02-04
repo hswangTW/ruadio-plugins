@@ -2999,7 +2999,7 @@ dependencies = [
 [[package]]
 name = "rustafx"
 version = "0.1.0"
-source = "git+https://github.com/hswangTW/rustafx.git#53d4615fda44a40e020b8d14c60524e13954e91a"
+source = "git+https://github.com/hswangTW/rustafx.git?rev=a55639d13777eadc75ceb344bc4bc51c40241917#a55639d13777eadc75ceb344bc4bc51c40241917"
 dependencies = [
  "log",
 ]
