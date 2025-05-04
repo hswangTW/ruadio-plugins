@@ -2,7 +2,7 @@ use std::sync::Arc;
 use nih_plug::prelude::*;
 use nih_plug_vizia::ViziaState;
 use parking_lot::RwLock;
-use rustafx::{
+use ruadio::{
     buffer_view::BufferViewMut,
     effects::{DigitalDelay, Effect},
 };

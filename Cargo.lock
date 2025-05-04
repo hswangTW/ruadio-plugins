@@ -1207,7 +1207,7 @@ dependencies = [
  "nih_plug",
  "nih_plug_vizia",
  "parking_lot",
- "rustafx",
+ "ruadio",
 ]
 
 [[package]]
@@ -2997,9 +2997,9 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustafx"
+name = "ruadio"
 version = "0.1.0"
-source = "git+https://github.com/hswangTW/rustafx.git?rev=a55639d13777eadc75ceb344bc4bc51c40241917#a55639d13777eadc75ceb344bc4bc51c40241917"
+source = "git+https://github.com/hswangTW/ruadio.git?rev=79d0437065f44fcd75f8609ea4c3931ab6c4c440#79d0437065f44fcd75f8609ea4c3931ab6c4c440"
 dependencies = [
  "log",
 ]
